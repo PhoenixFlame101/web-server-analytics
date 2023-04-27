@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Server Metrics</title>
+    <meta http-equiv="refresh" content="1; URL=http://localhost:5000/">
+  </head>
+  <body>
+    <h1>Server Metrics</h1>
+    <p>CPU Usage: {{ cpu_usage }}%</p>
+    <p>Memory Usage: {{ memory_usage }}%</p>
+    <p>Bytes Sent: {{ bytes_sent }}</p>
+    <p>Bytes Received: {{ bytes_recv }}</p>
+    <!-- <img src="data:image/png;base64,{{ graph }}" /> -->
+  </body>
+</html>
